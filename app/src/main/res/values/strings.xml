@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BottomSheetBehaviorSample</string>
+
+    <!-- 収入種別 -->
+    <string name="salary">給料</string>
+    <string name="pension">年金</string>
+    <string name="remittance">仕送り</string>
+    <string name="pocket_money">おこづかい</string>
+    <string name="bonus">ボーナス</string>
+    <string name="temporary_income">臨時収入</string>
+    <string name="loan">借入</string>
+    <string name="interest">利子</string>
+    <string name="investment_income">投資収入</string>
+    <string name="sale_income">売却収入</string>
+</resources>
