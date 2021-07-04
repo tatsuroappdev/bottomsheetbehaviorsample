@@ -1,6 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+
+    // 以下のコマンドにより、Support Libraryへの参照がないことを確認し、安全にJetifierを無効化できる。
+    // ./gradlew -Pandroid.enableJetifier=false canIDropJetifier
+    id "com.github.plnice.canidropjetifier" version "0.5"
 }
 
 android {
